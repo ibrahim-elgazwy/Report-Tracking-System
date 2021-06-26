@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #26a69a;
+    color: #fff;
+    padding: 10px 70px;
+}
+
+.btn-inline {
+    border: none;
+    outline: 0;
+    background: #26a69a;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+h3 {
+    cursor: pointer;
+    font-size: 23px;
+}
+

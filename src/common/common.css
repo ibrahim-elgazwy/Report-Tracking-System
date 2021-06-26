@@ -1,0 +1,127 @@
+.dialog {
+    
+}
+label {
+    display: inline-block;
+    cursor: pointer;
+}
+  
+.modal--btn {
+    font-size: 1.25rem;
+    padding: 5px 2rem;
+    font-weight: bold;
+    background-color: #26a69a;
+    color: #fff;
+    border: 3px solid rgb(243, 239, 234);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+  
+.modal--btn:hover {
+    background-color: darkorange;
+    color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+.modal--btn:active {
+    filter: brightness(75%);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.dialog__modal {
+    /* display: none; */
+    position: absolute;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 0 20px 100vw rgba(0, 0, 0, 0.65);
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    top: 100px;
+    padding-bottom: 30px;
+}
+  
+.close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: crimson;
+    transform: scaleX(1.2);
+}
+
+.dialog__modal p,
+.dialog__modal h3 {
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+}
+  
+.modal-btn {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    margin: 2rem auto;
+    display: block;
+    width: fit-content;
+}
+
+input:checked ~ .dialog__modal {
+    animation: modal 0.4s forwards;
+}
+
+input {
+    display: none;
+}
+
+.action {
+    text-align: left;
+    margin: 20px 50px;
+}
+
+.action span {
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#flexRadioDefault1, #flexRadioDefault2, .form-check {
+    display: inline-block;
+}
+
+.form-check {
+    margin-right: 40px;
+}
+  
+@keyframes modal {
+    0% {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    80% {
+      transform: scale(1.1);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+}
+
+.input--search {
+    display: inline-block;
+    width: 40%;
+    border: none;
+    outline: 0;
+    border-bottom: 2px solid #26a69a;
+    padding: 5px;
+}
+
+@media screen and (max-width: 960px) {
+    .input--search {
+        width: 80%;
+    }
+}
