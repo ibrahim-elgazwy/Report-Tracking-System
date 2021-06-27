@@ -15,3 +15,10 @@ action. Be it submission or review (for supervisors)<br />
 ## To Run App
 ### `yarn install`
 ### `yarn start`
+
+## To Login
+
+| Email             | Password      |
+| ------------------| ------------- |
+| employee@hr.com   | 123456        |
+| supervisor@hr.com | 123456        |
