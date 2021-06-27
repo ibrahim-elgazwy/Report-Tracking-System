@@ -18,7 +18,11 @@ action. Be it submission or review (for supervisors)<br />
 
 ## To Login
 
-| Email             | Password      |
-| ------------------| ------------- |
-| employee@hr.com   | 123456        |
-| supervisor@hr.com | 123456        |
+| Email                  | Password      |
+| -----------------------| ------------- |
+| employee@hr.com        | 123456        |
+| supervisor@hr.com      | 123456        |
+| employee@finance.com   | 123456        |
+| supervisor@finance.com | 123456        |
+| employee@legal.com     | 123456        |
+| supervisor@legal.com   | 123456        |
