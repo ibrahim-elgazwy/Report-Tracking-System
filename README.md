@@ -12,6 +12,8 @@ should only submit finance reports)<br />
 ● Employees and supervisors are shown a list (inbox) of reports that are waiting for their
 action. Be it submission or review (for supervisors)<br />
 
+## Demo: https://sleepy-engelbart-1a1e30.netlify.app/
+
 ## To Run App
 ### `yarn install`
 ### `yarn start`
