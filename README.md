@@ -12,5 +12,6 @@ should only submit finance reports)<br />
 ● Employees and supervisors are shown a list (inbox) of reports that are waiting for their
 action. Be it submission or review (for supervisors)<br />
 
-
-### `yarn eject`
+## Run App
+### `yarn install`
+### `yarn start`
