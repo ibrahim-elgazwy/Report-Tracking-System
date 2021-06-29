@@ -21,7 +21,7 @@ const AddReport = (props) => {
             props[key]({
                 title, 
                 description,
-                id: Math.floor(Math.random() * 10000),
+                id: Math.floor(Math.random() * 100000),
                 status: reportStatus.NEW,
                 createdAt: "24-6-2021"
             });

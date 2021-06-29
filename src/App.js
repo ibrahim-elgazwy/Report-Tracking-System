@@ -9,9 +9,11 @@ import Navbar from './components/navbar/navbar';
 
 function App() {
   let history = useHistory();
+
   useEffect(() => {
     if(!localStorage.getItem('user')) history.push('/login');
   }, [])
+
   return (
     <React.Fragment>
       <Navbar />

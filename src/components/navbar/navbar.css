@@ -18,5 +18,10 @@ nav {
 h3 {
     cursor: pointer;
     font-size: 23px;
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
 }
 
