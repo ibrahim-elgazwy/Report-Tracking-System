@@ -52,6 +52,7 @@ label {
     font-weight: bold;
     color: crimson;
     transform: scaleX(1.2);
+    z-index: 999;
 }
 
 .dialog__modal p,
